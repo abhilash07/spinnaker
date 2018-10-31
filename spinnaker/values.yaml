@@ -12,11 +12,11 @@ accounts:
     - library/ubuntu
     - library/centos
     - library/nginx
-# - name: gcr
-#   address: https://gcr.io
-#   username: _json_key
-#   password: '<INSERT YOUR SERVICE ACCOUNT JSON HERE>'
-#   email: 1234@5678.com
+- name: harbor
+  address: https://101.55.50.203
+  username: admin
+  password: epd9o509GCkCuaN2eUNZduMMwWriJk
+  email: abhichowdary07@gmail.com
 
 # Settings for notifications via email
 # For more info visit:
@@ -29,7 +29,8 @@ kubeConfig:
   secretName: my-kubeconfig
   secretKey: config
   # List of contexts from the kubeconfig to make available to Spinnaker
-  contexts: []
+  contexts: 
+  - default
 
 mail:
   enabled: true
