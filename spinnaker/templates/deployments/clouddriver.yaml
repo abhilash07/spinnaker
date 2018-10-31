@@ -43,6 +43,8 @@ spec:
               port: 7002
             initialDelaySeconds: 20
             timeoutSeconds: 1
+      imagePullSecrets:
+        - name: registry 
       volumes:
         - name: {{ template "fullname" . }}-spinnaker-config
           configMap:
