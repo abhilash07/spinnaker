@@ -47,14 +47,14 @@ slack:
 
 # Images for each component
 images:
-  clouddriver: 101.55.50.203/spinnaker/clouddriver:2.0.0-20180221152902
-  echo: 101.55.50.203/spinnaker/echo:0.8.0-20180221133510
-  deck: 101.55.50.203/spinnaker/deck:2.1.0-20180221143146
-  igor: 101.55.50.203/spinnaker/igor:0.9.0-20180221133510
-  orca: 101.55.50.203/spinnaker/orca:0.10.0-20180221133510
-  gate: 101.55.50.203/spinnaker/gate:0.10.0-20180221133510
-  front50: 101.55.50.203/spinnaker/front50:0.9.0-20180221133510
-  rosco: 101.55.50.203/spinnaker/rosco:0.5.0-20180221133510
+  clouddriver: 101.55.50.203/spinnaker/clouddriver:4.1.0-20181027022809
+  echo: 101.55.50.203/spinnaker/echo:2.2.0-20181025022809
+  deck: 101.55.50.203/spinnaker/deck:2.6.0-20181027022809
+  igor: 101.55.50.203/spinnaker/igor:0.14.0-20181026022809
+  orca: 101.55.50.203/spinnaker/orca:1.2.0-20181027022809
+  gate: 101.55.50.203/spinnaker/gate:1.3.0-20181026022809
+  front50: 101.55.50.203/spinnaker/front50:0.14.0-20181026022809
+  rosco: 101.55.50.203/spinnaker/rosco:0.8.1-20181026022809
 
 # Change this if youd like to expose Spinnaker outside the cluster
 deck:
